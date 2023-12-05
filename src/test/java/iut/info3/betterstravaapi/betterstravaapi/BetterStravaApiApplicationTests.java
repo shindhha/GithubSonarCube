@@ -10,6 +10,14 @@ class BetterStravaApiApplicationTests {
     void contextLoads() {
         BetterStravaApiApplication app = new BetterStravaApiApplication();
         assertTrue(app.iWroteSomeNewCode());
+
+    }
+
+    @Test
+    void dqs() {
+        BetterStravaApiApplication app = new BetterStravaApiApplication();
+        assertFalse(!app.iWroteSomeNewCode());
+
     }
 
 }
