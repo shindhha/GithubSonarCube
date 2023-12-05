@@ -14,6 +14,8 @@
     <name>BetterStravaAPI</name>
     <description>BetterStravaAPI</description>
     <properties>
+        <sonar.organization>shindhha</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <java.version>17</java.version>
     </properties>
     <dependencies>

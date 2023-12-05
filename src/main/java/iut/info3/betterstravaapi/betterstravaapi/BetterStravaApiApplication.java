@@ -10,4 +10,8 @@ public class BetterStravaApiApplication {
         SpringApplication.run(BetterStravaApiApplication.class, args);
     }
 
+
+    public boolean iWroteSomeNewCode() {
+        return true;
+    }
 }
